@@ -4,7 +4,7 @@
 
 
 
-# Main function for reml analyses suing DMU
+# Main function for reml analyses using DMU
 aireml <- function(fm=NULL,vfm=NULL,Klist=NULL, data=NULL,validate=NULL, bin=NULL) {
      tol <- 0.001
      fit <- cvfit <- model <- NULL
